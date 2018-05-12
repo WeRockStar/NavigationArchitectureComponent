@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android">
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="com.werockstar.navigationarchitecturecomponent.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_main_to_secondFragment"
+            app:destination="@id/secondFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.werockstar.navigationarchitecturecomponent.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
 
 </navigation>
