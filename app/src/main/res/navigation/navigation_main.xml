@@ -15,6 +15,7 @@
             app:destination="@id/secondFragment" />
 
     </fragment>
+
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.werockstar.navigationarchitecturecomponent.SecondFragment"
