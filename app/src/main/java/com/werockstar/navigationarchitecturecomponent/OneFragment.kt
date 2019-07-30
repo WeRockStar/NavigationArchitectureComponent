@@ -12,7 +12,7 @@ import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_main.*
 
 
-class MainFragment : Fragment(R.layout.fragment_main) {
+class OneFragment : Fragment(R.layout.fragment_main) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

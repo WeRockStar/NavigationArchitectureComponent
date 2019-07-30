@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/main">
 
+
     <fragment
         android:id="@+id/main"
-        android:name="com.werockstar.navigationarchitecturecomponent.MainFragment"
+        android:name="com.werockstar.navigationarchitecturecomponent.OneFragment"
         android:label="Main Fragment"
         tools:layout="@layout/fragment_main">
 
